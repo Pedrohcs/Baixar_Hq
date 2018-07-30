@@ -24,7 +24,7 @@ public class GerarArquivoPaginasHq {
 		        System.err.printf("Erro na abertura do arquivo: %s.\n",
 		          e.getMessage());
 		    }
-		    FileWriter arquivoPaginas = new FileWriter("C:\\Users\\pedro\\eclipse-workspace\\Baixar_Hq\\Paginas_Hq.txt");
+		    FileWriter arquivoPaginas = new FileWriter("Paginas_Hq.txt");
 		    PrintWriter gravarArquivoPaginas = new PrintWriter(arquivoPaginas);
 		    paginas = paginas.replace("      pages = [", "");
 		    paginas = paginas.replace("]", "");

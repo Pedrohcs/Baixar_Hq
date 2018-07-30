@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class CapturaHtml {
 	
-	private String nomeArquivoHtml = "C:\\Users\\pedro\\eclipse-workspace\\Baixar_Hq\\HTML_Pagina.txt";
+	private String nomeArquivoHtml = "HTML_Pagina.txt";
 	private String nomeUrl;
 	
 	public CapturaHtml(String nome) {

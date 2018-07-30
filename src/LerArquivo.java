@@ -7,7 +7,7 @@ import java.io.IOException;
 public class LerArquivo {
 	
 	private int tamanho;
-	private String nomeArquivo = "C:\\Users\\pedro\\eclipse-workspace\\Baixar_Hq\\Paginas_Hq.txt";
+	private String nomeArquivo = "Paginas_Hq.txt";
 	private String linha = "";
 	private String delimitador = ",";
 	private String[] paginas = new String[tamanho];

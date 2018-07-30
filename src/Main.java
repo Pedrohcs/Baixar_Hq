@@ -30,15 +30,21 @@ public class Main {
 		
 		leitor.lerArquivo();
 		
+		String nomeDiretorio;
+		
+		nomeDiretorio = JOptionPane.showInputDialog("Digite o nome do diretorio");
+		
 		Diretorio diretorio = new Diretorio(leitor.getPaginas().length);
 		
-		diretorio.criacaoRepositorio(leitor.getPagina(0));
+		diretorio.criacaoRepositorio(leitor.getPagina(0), nomeDiretorio);
 		
-		diretorio.setNomeArquivo(leitor.getPaginas().length);
+		diretorio.setNomeArquivo(leitor.getPaginas().length, nomeDiretorio);
 		
 		Download conexao = new Download();
 		
 		conexao.download(leitor.getPaginas().length, leitor.getPaginas(), diretorio.getNomeArquivos());
+		
+		JOptionPane.showMessageDialog(null, "Download finalizado");
 		
 	}
 
