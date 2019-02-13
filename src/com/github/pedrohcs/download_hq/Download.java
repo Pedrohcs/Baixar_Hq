@@ -1,3 +1,5 @@
+package com.github.pedrohcs.download_hq;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;

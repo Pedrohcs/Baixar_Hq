@@ -1,3 +1,5 @@
+package com.github.pedrohcs.download_hq;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

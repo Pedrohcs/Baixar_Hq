@@ -1,3 +1,5 @@
+package com.github.pedrohcs.download_hq;
+
 import java.io.IOException;
 
 import javax.swing.JOptionPane;
@@ -44,7 +46,7 @@ public class Main {
 		
 		conexao.download(leitor.getPaginas().length, leitor.getPaginas(), diretorio.getNomeArquivos());
 		
-		JOptionPane.showMessageDialog(null, "Download finalizado");
+		JOptionPane.showMessageDialog(null, "com.github.pedrohcs.download_hq.Download finalizado");
 		
 	}
 

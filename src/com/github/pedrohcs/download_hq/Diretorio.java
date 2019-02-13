@@ -1,3 +1,5 @@
+package com.github.pedrohcs.download_hq;
+
 import java.io.File;
 
 public class Diretorio {
@@ -23,9 +25,9 @@ public class Diretorio {
 		File diretorio = new File(nomeDiretorio);
 		if (!diretorio.exists()) {
 		   diretorio.mkdir();
-		   return "Diretorio Criado";
+		   return "com.github.pedrohcs.download_hq.Diretorio Criado";
 		} else {
-		   return "Diretório já existente";
+		   return "Diretï¿½rio jï¿½ existente";
 		}
 	}
 	
